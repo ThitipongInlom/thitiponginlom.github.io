@@ -12,10 +12,10 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.7.1",
     "bootstrap": "4.2.1",
-    "gulp": "^4.0.0",
     "gulp-autoprefixer": "6.0.0",
     "gulp-clean-css": "4.0.0",
     "gulp-clone": "^2.0.1",
+    "gulp-concat": "^2.6.1",
     "gulp-header": "2.0.7",
     "gulp-minify-css": "^1.2.4",
     "gulp-postcss": "^8.0.0",
@@ -31,15 +31,15 @@
     "browser-sync": "2.26.3",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "6.0.0",
-    "gulp-clone": "^2.0.1",
-    "gulp-minify-css": "^1.2.4",
     "gulp-clean-css": "4.0.0",
+    "gulp-clone": "^2.0.1",
     "gulp-header": "2.0.7",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^8.0.0",
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.2",
     "gulp-uglify": "3.0.1",
     "gulp-watch": "^5.0.1",
-    "gulp-wrap": "^0.14.0",
-    "gulp-postcss": "^8.0.0"
+    "gulp-wrap": "^0.14.0"
   }
 }
