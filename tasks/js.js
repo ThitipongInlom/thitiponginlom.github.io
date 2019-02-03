@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 
 module.exports = function () {
     var stream = gulp.src([
-            './src/js/**/*.js', // Scss Resume
+            './src/js/**/*.js', // Js Resume
             'node_modules/jquery/dist/jquery.js',  // Jquery
             'node_modules/@fortawesome/fontawesome-free/js/all.js', // @fortawesome
             'node_modules/bootstrap/dist/js/bootstrap.js', // @Bootstrap
