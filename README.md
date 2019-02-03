@@ -1,2 +1,4 @@
-# thitiponginlom.github.io
-My Resume
+## Getting Started
+
+* `npm install`
+* `gulp dev`
