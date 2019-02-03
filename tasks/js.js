@@ -7,7 +7,10 @@ var gulp = require('gulp'),
 
 module.exports = function () {
     var stream = gulp.src([
-            'node_modules/jquery/dist/jquery.js',
+            './src/js/**/*.js', // Scss Resume
+            'node_modules/jquery/dist/jquery.js',  // Jquery
+            'node_modules/@fortawesome/fontawesome-free/js/all.js', // @fortawesome
+            'node_modules/bootstrap/dist/js/bootstrap.js', // @Bootstrap
         ])
         .pipe(concat('Resume.js'))
         .pipe(wrap(';(function (window, $, undefined) { <%=contents%> })(window, jQuery);'));

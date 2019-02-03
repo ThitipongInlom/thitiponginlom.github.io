@@ -8,7 +8,11 @@ var gulp = require('gulp'),
     concat = require('gulp-concat');
 
 module.exports = function () {
-    var stream = gulp.src('./src/scss/**/*.scss')
+    var stream = gulp.src([
+            './src/scss/**/*.scss',  // Scss Resume
+            'node_modules/@fortawesome/fontawesome-free/css/all.css', // @fortawesome
+            'node_modules/bootstrap/dist/css/bootstrap.css', // @Bootstrap
+        ])
         .pipe(concat('Resume.scss'))
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([autoprefixer]));
