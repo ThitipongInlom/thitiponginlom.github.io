@@ -2,8 +2,26 @@
   background-color: #bd5d38 !important;
   height: 100%; }
 
+.text-orange {
+  color: #bd5d38 !important; }
+
+.float-left-head {
+  float: left !important;
+  margin-top: 15px;
+  color: #ffffff; }
+
+.float-right-head {
+  float: right !important;
+  margin-top: 15px;
+  color: #ffffff; }
+
+section.resume-section {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important; }
+
 .font {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, inherit, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; }
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, inherit, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color: #868e96; }
 
 .heading {
   font-size: 6rem;
@@ -17,7 +35,18 @@
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, inherit, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 1.5rem; }
+  font-size: 1rem; }
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400; }
+
+.nav-pills .nav-link.active {
+  color: #fff !important;
+  background-color: #007bff40 !important;
+  font-weight: 800;
+  letter-spacing: .05rem;
+  text-transform: uppercase; }
 
 .fa,
 .fas,

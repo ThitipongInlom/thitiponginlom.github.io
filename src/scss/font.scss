@@ -13,7 +13,9 @@
     'Segoe UI Emoji',
     'Segoe UI Symbol',
     'Noto Color Emoji';
+    color: #868e96;
 }
+
 .heading {
     font-size: 6rem;
     line-height: 5.5rem;
@@ -51,5 +53,19 @@
     'Segoe UI Emoji',
     'Segoe UI Symbol',
     'Noto Color Emoji';
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff !important;
+    background-color: #007bff40 !important;
+    font-weight: 800;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+}
+

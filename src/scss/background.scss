@@ -4,3 +4,24 @@
     background-color: $Orange !important;
     height:100%;
 }
+
+.text-orange {
+    color: $Orange !important;
+}
+
+.float-left-head {
+    float: left !important;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.float-right-head {
+    float: right !important;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
