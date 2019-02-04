@@ -22,6 +22,12 @@
 }
 
 section.resume-section {
-    padding-top: 3rem !important;
+    padding-left: 20px !important;
+    padding-top: 2.5rem !important;
     padding-bottom: 3rem !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+    border:5px solid $Brown;
 }

@@ -13,7 +13,7 @@
     'Segoe UI Emoji',
     'Segoe UI Symbol',
     'Noto Color Emoji';
-    color: #868e96;
+    color: $Gray;
 }
 
 .heading {
@@ -34,7 +34,7 @@
         'Noto Color Emoji';
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    color: $Blackgray;
 }
 
 .subheading {
@@ -54,6 +54,7 @@
     'Segoe UI Symbol',
     'Noto Color Emoji';
     font-size: 1rem;
+    padding-bottom: 15px;
 }
 
 p.lead {
@@ -61,11 +62,15 @@ p.lead {
     font-weight: 400;
 }
 
-.nav-pills .nav-link.active {
-    color: #fff !important;
-    background-color: #007bff40 !important;
+.nav-pills .nav-link {
+    color: $White !important;
+    background-color: $Brown !important;
     font-weight: 800;
     letter-spacing: .05rem;
     text-transform: uppercase;
+}
+
+.nav-pills .nav-item {
+    padding-bottom: 5px;
 }
 
