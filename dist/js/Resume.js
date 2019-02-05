@@ -1,4 +1,5 @@
-;(function (window, $, undefined) { $("#left_menu a").on('click', function (event) {
+;(function (window, $, undefined) { // Menu FadeIn animate
+$("#left_menu a").on('click', function (event) {
     if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;

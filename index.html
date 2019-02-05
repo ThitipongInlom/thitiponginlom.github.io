@@ -15,10 +15,10 @@
                 <!-- Lang -->
                 <div class="clearfix">
                     <div class="float-left-head">
-                        <h4>Thai</h4>
+                        <button class="btn btn-sm btn-secondary" onclick="switch_lang('th');"><span keylang="thai"></span></button>
                     </div>
                     <div class="float-right-head">
-                        <h4>English</h4>
+                        <button class="btn btn-sm btn-secondary" onclick="switch_lang('en');"><span keylang="english"></span></button>
                     </div>
                 </div>
                 <hr>
@@ -29,10 +29,10 @@
                 <br>
                 <ul class="nav nav-pills flex-column" id="left_menu">
                     <li class="nav-item" align="center">
-                        <a class="nav-link" href="#About">About</a>
+                        <a class="nav-link" href="#About"><span keylang="about"></span></a>
                     </li>
                     <li class="nav-item" align="center">
-                        <a class="nav-link" href="#Experience">EXPERIENCE</a>
+                        <a class="nav-link" href="#Experience"><span keylang="experience"></span></a>
                     </li>
                 </ul>
             </nav>
@@ -40,54 +40,49 @@
             <div class="col-sm-10 col-10">
                 <!-- Time line -->
                 <ul class="timeline">
-                <!--  About -->
-                <section class="resume-section" id="About">
-                    <li>
-                    <div class="heading">
-                        <h1 class="mb-0">Thitipong <span class="text-orange">Inlom</span></h1>
-                    </div>
-                    <span> <i class="fa fa-map-marker-alt"></i> Chon Buri, TH</span>
-                    <div class="subheading">
-                        🎓 Full Stack Developer <a href="mailto:ingnice007@gmail.com">ingnice007@gmail.com</a>
-                    </div>
-                    <p class="lead">I have gained more experience in the job market with willingness, curiosity and
-                        proactive work,
-                        always looking for
-                        the best results, taking into account teamwork that is important to success.</p>
-                    <p class="lead">I have first contact with development in 2017 and since then I have struggled to
-                        improve my
-                        skills both
-                        professionally and personally.</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    </li>
-                </section>
-                <hr>
-                <!-- Experience -->
-                <section class="resume-section" id="Experience">
-                    <li>
-                    <div class="heading">
-                        <h1 class="mb-0">EXPERIENCE</h1>
-                    </div>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    </li>
-                </section>
+                    <!--  About -->
+                    <section class="resume-section" id="About">
+                        <li>
+                            <div class="heading">
+                                <h1 class="mb-0"><span keylang="firstname"></span> <span class="text-orange"><span
+                                            keylang="lastname"></span></span></h1>
+                            </div>
+                            <span> <i class="fa fa-map-marker-alt"></i> <span keylang="province"></span>, <span keylang="country"></span></span>
+                            <div class="subheading">
+                                🎓 <span keylang="fullstackdeveloper"></span> <a href="mailto:ingnice007@gmail.com">ingnice007@gmail.com</a>
+                            </div>
+                            <p class="lead"><span keylang="sub_1"></span></p>
+                            <p class="lead"><span keylang="sub_2"></span></p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                        </li>
+                    </section>
+                    <hr>
+                    <!-- Experience -->
+                    <section class="resume-section" id="Experience">
+                        <li>
+                            <div class="heading">
+                                <h1 class="mb-0"><span keylang="experience"></span></h1>
+                            </div>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                            <p>1</p>
+                        </li>
+                    </section>
                 </ul>
             </div>
         </div>
@@ -95,6 +90,8 @@
 </body>
 <!-- Jquery-->
 <script src="Vendor/jquery/dist/jquery.js"></script>
+<!-- Switch Lang -->
+<script src="lang/lang.js"></script>
 <!-- Core Plugin -->
 <script src="dist/js/Resume.js"></script>
 
