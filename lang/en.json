@@ -2,6 +2,8 @@
     "title": "Thitipong Inlom - Full Stack Developer",
     "about": "ABOUT",
     "experience": "EXPERIENCE",
+    "education": "EDUCATION",
+    "skills": "SKILLS",
     "firstname": "Thitipong",
     "lastname": "Inlom",
     "province": "Chon Buri",
@@ -18,5 +20,13 @@
     "sub_job_2": "Moved to work in the same place and started writing web forms using Codeigniter and Node JS. But I didn't work well.",
     "itsupport_systemdep": "IT SUPPORT & System Deployment",
     "job_3_date": "October 2017 - Present",
-    "sub_job_3": "I was contacted by the same hotel. In order to start working in the position of IT SUPPORT & System Deployment, I was able to show my skill and skill by using Codeigniter. After that, I switched to Laravel followed by Vue Js and used Github to store the various work"
+    "sub_job_3": "I was contacted by the same hotel. In order to start working in the position of IT SUPPORT & System Deployment, I was able to show my skill and skill by using Codeigniter. After that, I switched to Laravel followed by Vue Js and used Github to store the various work",
+    "school_name_1": "Thai-Austrian Technical College",
+    "school_geade_1": "Vocational certificate Computer technique",
+    "school_date_1": "2013 - 2016",
+    "school_name_2": "Aksorn Pattaya Technological College",
+    "school_geade_2": "Diploma in Business Computer",
+    "school_date_2": "2018 - Present",
+    "basic": "BASIC"
+
 }

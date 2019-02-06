@@ -22,7 +22,7 @@ section.resume-section {
 
 .rounded-circle {
   border-radius: 50% !important;
-  border: 5px solid #57392f; }
+  border: 5px solid #ca7d60; }
 
 ul.timeline {
   list-style-type: none;
@@ -124,7 +124,6 @@ p.lead {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
   transition: color 200ms linear; }
 
 .nav-pills .nav-link:hover {
@@ -155,6 +154,12 @@ p.lead {
   font-weight: 200;
   font-size: 1rem;
   padding-top: 15px; }
+
+.headcard-skills {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #343a40; }
 
 .resume-content {
   display: flex !important; }

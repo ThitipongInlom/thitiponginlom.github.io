@@ -10,6 +10,7 @@ module.exports = function () {
             './src/js/**/*.js', // Js Resume
             'node_modules/@fortawesome/fontawesome-free/js/all.js', // @fortawesome
             'node_modules/bootstrap/dist/js/bootstrap.js', // @Bootstrap
+            'node_modules/bootstrap/dist/js/bootstrap.bundle.js', // @Bootstrap
         ])
         .pipe(concat('Resume.js'))
         .pipe(wrap(';(function (window, $, undefined) { <%=contents%> })(window, jQuery);'));

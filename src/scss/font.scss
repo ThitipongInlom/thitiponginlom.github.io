@@ -56,7 +56,6 @@ p.lead {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
     transition: color 200ms linear;
 }
 
@@ -67,7 +66,7 @@ p.lead {
     letter-spacing: .05rem;
     text-transform: uppercase;
     background-position: left center;
-    color: #ef9671;
+    color: $Lightgold;
     transition: background-position 2000ms ease-out;
 }
 
@@ -91,6 +90,13 @@ p.lead {
     font-weight: 200;
     font-size: 1rem;
     padding-top: 15px;
+}
+
+.headcard-skills {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    color: $Blackgray;
 }
 
 .resume-content {
