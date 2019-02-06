@@ -1,24 +1,4 @@
-
 .font {
-    font-family: 'Saira Extra Condensed',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif,
-    inherit,
-    'Apple Color Emoji',
-    'Segoe UI Emoji',
-    'Segoe UI Symbol',
-    'Noto Color Emoji';
-    color: $Gray;
-}
-
-.heading {
-    font-size: 6rem;
-    line-height: 5.5rem;
     font-family: 'Saira Extra Condensed',
         -apple-system,
         BlinkMacSystemFont,
@@ -32,29 +12,32 @@
         'Segoe UI Emoji',
         'Segoe UI Symbol',
         'Noto Color Emoji';
+    color: $Gray;
+}
+
+.heading {
+    font-size: 6rem;
+    line-height: 5.5rem;
     font-weight: 700;
     text-transform: uppercase;
     color: $Blackgray;
 }
 
+.padding3rm {
+    margin-bottom: 2rem !important;
+}
+
 .subheading {
     text-transform: uppercase;
     font-weight: 500;
-    font-family: 'Saira Extra Condensed',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif,
-    inherit,
-    'Apple Color Emoji',
-    'Segoe UI Emoji',
-    'Segoe UI Symbol',
-    'Noto Color Emoji';
     font-size: 1rem;
     padding-bottom: 15px;
+}
+
+a {
+    color: $Orange !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
 }
 
 p.lead {
@@ -64,13 +47,65 @@ p.lead {
 
 .nav-pills .nav-link {
     color: $White !important;
+    font-weight: 800;
+    position: relative;
+    background-image: -webkit-linear-gradient(left, white 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, white 75%);
+    background-image: linear-gradient(90deg, white 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, white 75%);
+    background-position: right center;
+    background-size: 400% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    transition: color 200ms linear;
+}
+
+.nav-pills .nav-link:hover {
+    color: $White !important;
     background-color: $Brown !important;
     font-weight: 800;
     letter-spacing: .05rem;
     text-transform: uppercase;
+    background-position: left center;
+    color: #ef9671;
+    transition: background-position 2000ms ease-out;
 }
 
-.nav-pills .nav-item {
-    padding-bottom: 5px;
+.headexperience {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $Blackgray;
 }
 
+.subexperience {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+.subexperiencenot {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+.resume-content {
+    display: flex !important;
+}
+
+.content-right {
+    min-width: 16rem;
+}
+
+.content-left {
+    padding-bottom: 2rem;
+}
+
+.content-text {
+    font-size: 1rem;
+    font-weight: 200;
+}

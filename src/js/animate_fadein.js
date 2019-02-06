@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
 // Menu FadeIn animate
 $("#left_menu a").on('click', function (event) {
     if (this.hash !== "") {
