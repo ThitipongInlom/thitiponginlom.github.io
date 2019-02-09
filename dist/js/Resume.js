@@ -12,10 +12,11 @@ $("#left_menu a").on('click', function (event) {
             scrollTop: $(hash).offset().top
         }, 800, function () {
 
-        window.location.hash = hash;
+            window.location.hash = hash;
         });
-    } 
+    }
 });
+
 (function () {
   'use strict';
 
