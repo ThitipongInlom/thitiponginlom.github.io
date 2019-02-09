@@ -158,7 +158,7 @@ p.lead {
 .headcard-skills {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #343a40; }
 
 .resume-content {
@@ -173,6 +173,16 @@ p.lead {
 .content-text {
   font-size: 1rem;
   font-weight: 200; }
+
+.setting_image {
+  width: 48px;
+  height: 48px;
+  opacity: 0.3; }
+
+.setting_image:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity: 0.95; }
 
 .fa,
 .fas,

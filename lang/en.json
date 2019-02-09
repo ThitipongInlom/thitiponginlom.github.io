@@ -27,6 +27,11 @@
     "school_name_2": "Aksorn Pattaya Technological College",
     "school_geade_2": "Diploma in Business Computer",
     "school_date_2": "2018 - Present",
-    "basic": "BASIC"
+    "basic": "BASIC",
+    "backend": "BACKEND",
+    "frontend": "FRONTEND",
+    "package_manager": "PACKAGE MANAGER",
+    "database": "DATABASE",
+    "others": "OTHERS"
 
 }
