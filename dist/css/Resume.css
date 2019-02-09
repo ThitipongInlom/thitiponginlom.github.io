@@ -182,7 +182,8 @@ p.lead {
 .setting_image:hover {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
-  opacity: 0.95; }
+  opacity: 0.95;
+  cursor: pointer; }
 
 .fa,
 .fas,
