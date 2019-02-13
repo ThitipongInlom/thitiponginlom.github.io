@@ -2,6 +2,9 @@
   background-color: #bd5d38 !important;
   height: 100%; }
 
+.bg-lightbrown {
+  background-color: #fba27f !important; }
+
 .text-orange {
   color: #bd5d38 !important; }
 
@@ -87,7 +90,8 @@ div.english:hover {
 
 .font {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, inherit, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  color: #868e96; }
+  color: #868e96;
+  background-color: #fff8dc; }
 
 .heading {
   font-size: 6rem;
