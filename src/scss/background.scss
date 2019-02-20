@@ -1,16 +1,16 @@
 @import "setcolor";
 
 .bg-orange-left {
-    background-color: $Orange !important;
+    background-color: $GrayBlack !important;
     height: 100%;
 }
 
 .bg-lightbrown {
-    background-color: $Lightbrown !important;
+    background-color: $White !important;
 }
 
 .text-orange {
-    color: $Orange !important;
+    color: $Greenwhite !important;
 }
 
 .float-left-head {
@@ -33,7 +33,7 @@ section.resume-section {
 
 .rounded-circle {
     border-radius: 50% !important;
-    border: 5px solid $Lightorange;
+    border: 5px solid $Graywhite;
 }
 
 ul.timeline {
@@ -43,7 +43,7 @@ ul.timeline {
 
 ul.timeline:before {
     content: ' ';
-    background: $Lightgray;
+    background: $Greensky;
     display: inline-block;
     position: absolute;
     left: 15px;
