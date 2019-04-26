@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // use function
     switch_lang(null);
 });
 
