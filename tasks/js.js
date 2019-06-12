@@ -3,11 +3,12 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     clone = require('gulp-clone'),
     wrap = require('gulp-wrap'),
-    concat = require('gulp-concat');
+    concat = require('gulp-concat'),
     merge = require('merge2');
 
 module.exports = function () {
     var jquery = gulp.src('node_modules/jquery/dist/jquery.js');
+    var simplebar = gulp.src('node_modules/simplebar/dist/simplebar.js');
     var stream = gulp.src([
             './src/js/**/*.js', // Js Resume
             'node_modules/@fortawesome/fontawesome-free/js/all.js', // @fortawesome
@@ -17,7 +18,7 @@ module.exports = function () {
         .pipe(concat('Resume.js'))
         .pipe(wrap(';(function (window, $, undefined) { <%=contents%> })(window, jQuery);'));
     
-    return merge(jquery, stream)
+    return merge(jquery, simplebar, stream)
             .pipe(clone())
             .pipe(gulp.dest('dist/js'))
 

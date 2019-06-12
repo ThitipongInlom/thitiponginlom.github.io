@@ -35,8 +35,8 @@
     padding-bottom: 15px;
 }
 
-a {
-    color: $Greenwhite !important;
+.a-color {
+    color: #009c9f !important;
     text-decoration: none !important;
     background-color: transparent !important;
 }
@@ -44,6 +44,10 @@ a {
 p.lead {
     font-size: 1.15rem;
     font-weight: 400;
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 .nav-pills .nav-link {
