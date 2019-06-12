@@ -4,8 +4,10 @@ var gulp = require('gulp'),
     clone = require('gulp-clone'),
     wrap = require('gulp-wrap'),
     concat = require('gulp-concat');
+    merge = require('merge2');
 
 module.exports = function () {
+    var jquery = gulp.src('node_modules/jquery/dist/jquery.js');
     var stream = gulp.src([
             './src/js/**/*.js', // Js Resume
             'node_modules/@fortawesome/fontawesome-free/js/all.js', // @fortawesome
@@ -14,13 +16,14 @@ module.exports = function () {
         ])
         .pipe(concat('Resume.js'))
         .pipe(wrap(';(function (window, $, undefined) { <%=contents%> })(window, jQuery);'));
+    
+    return merge(jquery, stream)
+            .pipe(clone())
+            .pipe(gulp.dest('dist/js'))
 
-    stream.pipe(clone())
-        .pipe(gulp.dest('dist/js'));
-
-    stream.pipe(clone())
-        .pipe(uglify())
-        .pipe(rename('Resume.min.js'))
-        .pipe(gulp.dest('dist/js'))
+            .pipe(clone())
+            .pipe(uglify())
+            .pipe(rename('Resume.min.js'))
+            .pipe(gulp.dest('dist/js'))
 
 };

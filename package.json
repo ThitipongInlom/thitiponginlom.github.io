@@ -1,7 +1,7 @@
 {
   "title": "Thitipong Resume",
   "name": "thitipong-resume",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Thitipong Inlom' Resume",
   "repository": {
     "type": "git",
@@ -10,10 +10,10 @@
   "author": "Thitipong Inlom",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "5.7.1",
-    "bootstrap": "4.2.1",
-    "gulp-autoprefixer": "6.0.0",
-    "gulp-clean-css": "4.0.0",
+    "@fortawesome/fontawesome-free": "5.9.0",
+    "bootstrap": "4.3.1",
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-clean-css": "4.2.0",
     "gulp-clone": "^2.0.1",
     "gulp-concat": "^2.6.1",
     "gulp-header": "2.0.7",
@@ -21,25 +21,26 @@
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.2",
-    "gulp-uglify": "3.0.1",
+    "gulp-uglify": "3.0.2",
     "gulp-watch": "^5.0.1",
-    "gulp-wrap": "^0.14.0",
-    "jquery": "3.3.1",
+    "gulp-wrap": "^0.15.0",
+    "jquery": "^3.4.1",
+    "merge2": "^1.2.3",
     "package.json": "^2.0.1"
   },
   "devDependencies": {
-    "browser-sync": "2.26.3",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "6.0.0",
-    "gulp-clean-css": "4.0.0",
+    "browser-sync": "2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-clean-css": "4.2.0",
     "gulp-clone": "^2.0.1",
     "gulp-header": "2.0.7",
     "gulp-minify-css": "^1.2.4",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.2",
-    "gulp-uglify": "3.0.1",
+    "gulp-uglify": "3.0.2",
     "gulp-watch": "^5.0.1",
-    "gulp-wrap": "^0.14.0"
+    "gulp-wrap": "^0.15.0"
   }
 }
