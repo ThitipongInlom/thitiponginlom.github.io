@@ -1,16 +1,22 @@
-## Getting Started
+## เริ่มต้นใช้งาน
 
-* `npm install`
-* `gulp dev`
+```
+- แก้ไขข้อมูล ในหน้า HTML
+ * lang/en.json
+ * lang/th.json
+- รวมไฟล์ Css Js
+ * Npm install
+ * gulp dev
+```
 
-## Old Version Vs New Version
-<h3>PC</h3>
+## เวอร์ชันเก่า Vs เวอร์ชั่นใหม่
+<h3>คอมพิวเตอร์</h3>
 
 <img src="https://user-images.githubusercontent.com/11131954/59336166-38a42300-8d28-11e9-9d9b-3d2b429b4b94.jpg" width="23%"></img>
 VS
 <img src="https://user-images.githubusercontent.com/11131954/59336163-380b8c80-8d28-11e9-92e5-278a2fe2fd6a.jpg" width="23%"></img>
 <br>
-<h3>Mobile</h3>
+<h3>มือถือ</h3>
 
 <img src="https://user-images.githubusercontent.com/11131954/59336165-380b8c80-8d28-11e9-9806-32703a18326e.jpg" width="23%"></img>
 VS
