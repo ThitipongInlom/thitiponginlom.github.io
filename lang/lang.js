@@ -22,5 +22,8 @@ var switch_lang = function switch_lang(lang) {
         var langCode = lang;
     
     // Get Json Flie
-    $.getJSON('lang/' + langCode + '.json', switch_translate);   
+    $.getJSON('lang/' + langCode + '.json', switch_translate); 
+    
+    // Hide navbar for switch lang
+    $("#navbarSupportedContent").collapse('hide');
 }

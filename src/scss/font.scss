@@ -36,7 +36,7 @@
 }
 
 .a-color {
-    color: #009c9f !important;
+    color: $Greenwhite !important;
     text-decoration: none !important;
     background-color: transparent !important;
 }
@@ -50,37 +50,23 @@ p.lead {
     cursor: pointer;
 }
 
-.nav-pills .nav-link {
-    color: $White !important;
-    font-weight: 800;
-    position: relative;
-    background-image: -webkit-linear-gradient(left, white 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, white 75%);
-    background-image: linear-gradient(90deg, white 25%, #fde071 37.5%, #ef9671, #996a6e 62.5%, white 75%);
-    background-position: right center;
-    background-size: 400% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: color 200ms linear;
+@media (min-width:992px) {
+    .headexperience {
+        font-size: 1.5rem;
+        line-height: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $Blackgray;
+    }
 }
 
-.nav-pills .nav-link:hover {
-    color: $White !important;
-    background-color: $Brown !important;
-    font-weight: 800;
-    letter-spacing: .05rem;
-    text-transform: uppercase;
-    background-position: left center;
-    color: $Lightgold;
-    transition: background-position 2000ms ease-out;
-}
-
-.headexperience {
-    font-size: 1.5rem;
-    line-height: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: $Blackgray;
+@media (min-width:320px) {
+    .headexperience {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $Blackgray;
+    }
 }
 
 .subexperience {
