@@ -27,7 +27,8 @@
     "jquery": "^3.4.1",
     "merge2": "^1.2.3",
     "package.json": "^2.0.1",
-    "simplebar": "^4.0.0"
+    "simplebar": "^4.0.0",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "browser-sync": "2.26.7",

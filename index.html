@@ -9,9 +9,10 @@
 </head>
 
 <body class="font" data-simplebar>
+    <div id="app">
     <nav class="navbar navbar-expand-lg navbar-dark bg-grayblack fixed-top" id="sideNav">
         <a class="navbar-brand" href="#About">
-            <span class="d-block d-lg-none"><span keylang="firstname"></span> <span keylang="lastname"></span></span>
+            <span class="d-block d-lg-none">{{ name[default_language] }}</span>
             <span class="d-none d-lg-block">
                 <img class="img-fluid img-profile rounded-circle-border mx-auto mb-2" src="./img/thitiponginlom.jpg"
                     alt="Thitipong Inlom profile">
@@ -45,30 +46,30 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#About" onclick="$('#navbarSupportedContent').collapse('hide');">
-                        <span keylang="about"></span>
+                        {{ about[default_language] }}
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Experience" onclick="$('#navbarSupportedContent').collapse('hide');">
-                        <span keylang="experience"></span>
+                        {{ experience[default_language] }}
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Education" onclick="$('#navbarSupportedContent').collapse('hide');">
-                        <span keylang="education"></span>
+                        {{ education[default_language] }}
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Skills" onclick="$('#navbarSupportedContent').collapse('hide');">
-                        <span keylang="skills"></span>
+                        {{ skills[default_language] }}
                     </a>
                 </li>
                 <li class="nav-item">
                     <div class="form-inline text-center">
-                        <span class="nav-link pointer" onclick="switch_lang('en');"><img src="./img/en.png"
+                        <span class="nav-link pointer" v-on:click="new_lang('en')"><img src="./img/en.png"
                                 class="rounded-circle" alt="English language" width="30">
                             English</span>
-                        <span class="nav-link pointer" onclick="switch_lang('th');" style="margin-left: 15px;"><img
+                        <span class="nav-link pointer" v-on:click="new_lang('th')" style="margin-left: 15px;"><img
                                 src="./img/th.png" class="rounded-circle" alt="Thailand language" width="30">
                             Thai</span>
                     </div>
@@ -279,7 +280,7 @@
                 </li>
             </section>
     </div>
-    </script>
+    </div>
 </body>
 <!-- Jquery-->
 <script src="dist/js/jquery.js"></script>
@@ -289,5 +290,6 @@
 <script src="lang/lang.js"></script>
 <!-- Core Plugin -->
 <script src="dist/js/Resume.js"></script>
-
 </html>
+<!-- Vue App -->
+<script src="lang/language.js"></script>
