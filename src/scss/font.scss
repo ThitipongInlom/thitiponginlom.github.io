@@ -75,6 +75,15 @@ p.lead {
     h1 {
         font-size: 2rem !important;
     }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 0 !important;
+        font-size: 1rem !important;
+        line-height: inherit;
+    }
 }
 
 .subexperience {
