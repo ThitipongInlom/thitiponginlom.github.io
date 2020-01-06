@@ -14,7 +14,6 @@ module.exports = function () {
             'node_modules/@fortawesome/fontawesome-free/js/all.js', // @fortawesome
             'node_modules/bootstrap/dist/js/bootstrap.js', // @Bootstrap
             'node_modules/bootstrap/dist/js/bootstrap.bundle.js', // @Bootstrap
-            'node_modules/vue/dist/vue.js', // @Vue
         ])
         .pipe(concat('Resume.js'))
         .pipe(wrap(';(function (window, $, undefined) { <%=contents%> })(window, jQuery);'));

@@ -27,6 +27,4 @@ module.exports = function () {
             .pipe(clone())
             .pipe(rename('Resume.css'))
             .pipe(gulp.dest('dist/css'))
-
-
 };
