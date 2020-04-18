@@ -1,0 +1,125 @@
+.font {
+    font-family: 'Saira Extra Condensed',
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        'Helvetica Neue',
+        Arial,
+        sans-serif,
+        inherit,
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol',
+        'Noto Color Emoji';
+    color: $Gray;
+    background-color: $Cornsilk;
+}
+
+.heading {
+    font-size: 6rem;
+    line-height: 5.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $Blackgray;
+}
+
+.padding3rm {
+    margin-bottom: 2rem !important;
+}
+
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+
+.a-color {
+    color: $Greenwhite !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@media (min-width:992px) {
+    .headexperience {
+        font-size: 1.5rem;
+        line-height: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $Blackgray;
+    }
+
+    h1 {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media (min-width:320px) {
+    .headexperience {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $Blackgray;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 0 !important;
+        font-size: 1rem !important;
+        line-height: inherit;
+    }
+}
+
+.subexperience {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+.subexperiencenot {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+.headcard-skills {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: $Blackgray;
+}
+
+.resume-content {
+    display: flex !important;
+}
+
+.content-right {
+    min-width: 16rem;
+}
+
+.content-left {
+    padding-bottom: 2rem;
+}
+
+.content-text {
+    font-size: 1rem;
+    font-weight: 200;
+}
