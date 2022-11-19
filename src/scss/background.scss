@@ -1,0 +1,74 @@
+@import "setcolor";
+
+.bg-orange-left {
+    background-color: $GrayBlack !important;
+}
+
+.bg-lightbrown {
+    background-color: $White !important;
+}
+
+.text-orange {
+    color: $Greenwhite !important;
+}
+
+.float-left-head {
+    float: left !important;
+    margin-top: 15px;
+    color: $White;
+}
+
+.float-right-head {
+    float: right !important;
+    margin-top: 15px;
+    color: $White;
+}
+
+section.resume-section {
+    padding-left: 20px !important;
+    padding-top: 2.5rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.rounded-circle-border {
+    border-radius: 50% !important;
+    border: 5px solid $Graywhite;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: $Greensky;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 29px 0;
+    padding-left: 10px;
+}
+
+ul.timeline>section>li:before {
+    content: '  ';
+    background: $White;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid $Lightblue;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+    margin-top: 15px;
+}
+
+
+
