@@ -1,5 +1,11 @@
+
 export default defineNuxtConfig({
     ssr: false,
+    sourcemap: false,
+    app: {
+        baseURL: "/",
+        buildAssetsDir: "/nuxt/",
+    },
     css: [
         '@/assets/css/style.css',
         'bootstrap/dist/css/bootstrap.min.css',
@@ -22,5 +28,5 @@ export default defineNuxtConfig({
                 file: 'th-TH.json'
             }
         ]
-    }
+    },
 })

@@ -39,7 +39,19 @@ import skills from "@/assets/json/skills.json";
 export default {
     name: 'Skills',
     data: () => ({
-        skillsList: skills.skillsData
+        skillsList: skills.skillsData,
+        imageBuild: {
+            bootstrap: new URL(`@/assets/image/skills/bootstrap.png`, import.meta.url).href,
+            codeigniter: new URL(`@/assets/image/skills/codeigniter.png`, import.meta.url).href,
+            css: new URL(`@/assets/image/skills/css.png`, import.meta.url).href,
+            html: new URL(`@/assets/image/skills/html.png`, import.meta.url).href,
+            javascript: new URL(`@/assets/image/skills/javascript.png`, import.meta.url).href,
+            jquery: new URL(`@/assets/image/skills/jquery.png`, import.meta.url).href,
+            laravel: new URL(`@/assets/image/skills/laravel.png`, import.meta.url).href,
+            nodejs: new URL(`@/assets/image/skills/nodejs.png`, import.meta.url).href,
+            php: new URL(`@/assets/image/skills/php.png`, import.meta.url).href,
+            vuejs: new URL(`@/assets/image/skills/vuejs.png`, import.meta.url).href,
+        }
     }),
     computed: {
 
@@ -49,7 +61,12 @@ export default {
     },
     methods: {
         getImagePathAuto: function(payload) {
-            return new URL("../assets/image/skills/"+ payload.toLowerCase() +".png", import.meta.url).href
+            let imagePath = Object.keys(this.imageBuild).filter(key => key == payload.toLowerCase()).reduce((obj, key) => {
+                obj[key] = this.imageBuild[key];
+                return obj[key];
+            }, {});
+
+            return imagePath;
         },
         getCalculateYearMonth: function(payload) {
             var year = moment.duration(moment().diff(moment(payload, "YYYY-MM-DD")));
