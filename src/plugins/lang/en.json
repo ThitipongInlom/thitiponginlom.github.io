@@ -1,0 +1,107 @@
+{
+    "general": {
+        "mainMenu": {
+            "about": "About",
+            "experience": "Experience",
+            "education": "Education",
+            "skills": "Skills"
+        },
+        "lang": {
+            "english": "English",
+            "thai": "Thai"
+        },
+        "profile": {
+            "name": "Thitipong Inlom",
+            "position": "Web Developer.",
+            "phone": "0864633160",
+            "age": "24",
+            "city": "Chiang Mai",
+            "web": "https://thitiponginlom.github.io",
+            "socialUrl": {
+                "twitter": "https://twitter.com/ingnice007",
+                "facebook": "https://www.facebook.com/Thitipong.Inlom",
+                "instagram": "https://www.instagram.com/thitipong_inlom",
+                "github": "https://github.com/ThitipongInlom",
+                "linkedin": "https://www.linkedin.com/in/thitiponginlom"
+            }
+        },
+        "general": {
+            "certificate": "Certificate",
+            "close": "Close",
+            "relevant_technical_skills": "Relevant Technical Skills",
+            "languages": "Languages",
+            "languages_tools": "Languages/Tools",
+            "tools": "Tools",
+            "logo": "Logo",
+            "years_experience": "# of Years Experience",
+            "year": "Year",
+            "month": "Month"
+        }
+    },
+    "about": {
+        "text1": "I have gained more experience in the job market with willingness, curiosity and proactive work, always looking for the best results, taking into account teamwork that is important to success.",
+        "text2": "I have first contact with development in 2017 and since then I have struggled to improve my skills both professionally and personally.",
+        "website": "Website",
+        "phone": "Phone",
+        "age": "Age",
+        "city": "City"
+    },
+    "experience": [
+        {
+            "company": "TheZign Hotel",
+            "position": "IT Support",
+            "time": "May 2016 - June 2017",
+            "description": "My first experience in IT support I think that if I do something else, my salary will rise. So I chose to design the system and practice writing in a short time. And I found that I discovered that Programming. It's worth finding. There are many things that we still don't know. It makes me feel interested and obsessed about practicing writing at the beginning, HTML language, Javascript",
+            "address": {
+                "province": "Chon Buri",
+                "country": "TH"
+            }
+        },
+        {
+            "company": "TheZign Hotel",
+            "position": "IT Support & System Deployment",
+            "time": "October 2017 - July 2020",
+            "description": "I was contacted by the same hotel. In order to start working in the position of IT SUPPORT & System Deployment, I was able to show my skill and skill by using Codeigniter. After that, I switched to Laravel followed by Vue Js and used Github to store the various work",
+            "address": {
+                "province": "Chon Buri",
+                "country": "TH"
+            }
+        },
+        {
+            "company": "Xscript digital",
+            "position": "Web Developer",
+            "time": "September 2020 - February 2022",
+            "description": "Accept work as assigned Vuejs 3 / Laravel / jQuery / Bootstrap 5",
+            "address": {
+                "province": "Chiang Mai",
+                "country": "TH"
+            }
+        },
+        {
+            "company": "AT Creative Solutions",
+            "position": "Web Developer",
+            "time": "March 2565 - Present",
+            "description": "Get a job as FrontEnd as Vuejs and BackEnd as Laravel working on the backend of the transport connection shop.",
+            "address": {
+                "province": "สมุทรปราการ",
+                "country": "ไทย"
+            }
+        }
+    ],
+    "education": [
+        {
+            "school": "Thai-Austrian Technical College",
+            "degree": "Vocational certificate Computer technique",
+            "time": "2013 - 2016",
+            "grade": "2.70",
+            "certificate": "true"
+        },
+        {
+            "school": "Aksorn Pattaya Technological College",
+            "degree": "Diploma in Business Computer",
+            "time": "2018 - 2020",
+            "grade": "3.37",
+            "certificate": "false"
+        }
+    ]
+}

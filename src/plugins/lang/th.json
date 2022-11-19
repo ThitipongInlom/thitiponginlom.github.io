@@ -1,0 +1,106 @@
+{
+    "general": {
+        "mainMenu": {
+            "about": "เกี่ยวกับ",
+            "experience": "ประสบการณ์",
+            "education": "การศึกษา",
+            "skills": "ทักษะ"
+        },
+        "lang": {
+            "english": "อังกฤษ",
+            "thai": "ไทย"
+        },
+        "profile": {
+            "name": "ฐิติพงษ์ อินลม",
+            "position": "นักพัฒนาเว็บ.",
+            "phone": "0864633160",
+            "age": "24",
+            "city": "เชียงใหม่",
+            "web": "https://thitiponginlom.github.io",
+            "socialUrl": {
+                "twitter": "https://twitter.com/ingnice007",
+                "facebook": "https://www.facebook.com/Thitipong.Inlom",
+                "instagram": "https://www.instagram.com/thitipong_inlom",
+                "github": "https://github.com/ThitipongInlom",
+                "linkedin": "https://www.linkedin.com/in/thitiponginlom"
+            }
+        },
+        "general": {
+            "certificate": "ใบรับรอง",
+            "close": "ปิด",
+            "relevant_technical_skills": "ทักษะทางเทคนิคที่เกี่ยวข้อง",
+            "languages": "ภาษา",
+            "languages_tools": "ภาษา/เครื่องมือ",
+            "tools": "เครื่องมือ",
+            "logo": "โลโก้",
+            "years_experience": "# ประสบการณ์หลายปี",
+            "year": "ปี",
+            "month": "เดือน"
+        }
+    },
+    "about": {
+        "text1": "ฉันได้รับประสบการณ์มากขึ้นในตลาดงานด้วยความเต็มใจอยากรู้อยากเห็นและการทำงานเชิงรุกมองหาผลลัพธ์ที่ดีที่สุดเสมอโดยคำนึงถึงการทำงานเป็นทีมที่สำคัญต่อความสำเร็จ",
+        "text2": "ฉันได้รับการติดต่อครั้งแรกกับการพัฒนาในปี 2560 และตั้งแต่นั้นมาฉันก็พยายามดิ้นรนเพื่อพัฒนาทักษะของฉันทั้งในด้านอาชีพและส่วนตัว",
+        "website": "เว็บไซต์",
+        "phone": "โทรศัพท์",
+        "age": "อายุ",
+        "city": "เมือง"
+    },
+    "experience": [
+        {
+            "company": "TheZign Hotel",
+            "position": "IT Support",
+            "time": "พฤษภาคม 2559 - มิถุนายน 2560",
+            "description": "ประสบการณ์ครั้งแรกของผมในการสนับสนุนด้านไอที ผมคิดว่าถ้าผมทำอย่างอื่นได้เงินเดือนคงขึ้นมาบ้าง ผมเลยเลือกที่จะออกแบบระบบและฝึกเขียนในเวลาอันสั้น และฉันก็พบว่าผมค้นพบว่า การเขียนโปรแกรมมันน่าค้นหามีอะไรมากมายที่เรายังไม่รู้ มันทำให้ผมรู้สึกสนใจและหมกมุ่นเกี่ยวกับการฝึกเขียนช่วงเริ่มต้น ภาษา HTML Javascript",
+            "address": {
+                "province": "ชลบุรี",
+                "country": "ไทย"
+            }
+        },
+        {
+            "company": "TheZign Hotel",
+            "position": "IT Support & System Deployment",
+            "time": "ตุลาคม 2560 - กรกฎาคม 2563",
+            "description": "ผมได้รับการติดต่อจากโรงแรมเดิม เพื่อเริ่มงานในตำแหน่ง IT SUPPORT & System Deployment ผมได้แสดงฝีมืออย่างสุดฝีมือ โดนใช้ Codeigniter หลังจากนั้นผมได้เปลี่ยนมาใช้ Laravel ตามด้วย Vue Js และได้ ใช้งาน Github ในการเก็บผลงานต่างๆ",
+            "address": {
+                "province": "ชลบุรี",
+                "country": "ไทย"
+            }
+        },
+        {
+            "company": "Xscript digital",
+            "position": "Web Developer",
+            "time": "กันยายน 2563 - กุมภาพันธ์ 2565",
+            "description": "รับงาน ตามที่ได้รับมอบหมาย ใช้งาน Vuejs 3 / Laravel / jQuery / Bootstrap 5",
+            "address": {
+                "province": "เชียงใหม่",
+                "country": "ไทย"
+            }
+        },
+        {
+            "company": "AT Creative Solutions",
+            "position": "Web Developer",
+            "time": "มีนาคม 2565 - ปัจจุบัน",
+            "description": "ได้รับงานเป็น FrontEnd เป็น Vuejs และ BackEnd เป็น Laravel ทำเกี่ยวกับระบบหลังบ้านของร้านค้าเชื่อมต่อขนส่งต่างๆ",
+            "address": {
+                "province": "สมุทรปราการ",
+                "country": "ไทย"
+            }
+        }
+    ],
+    "education": [{
+            "school": "วิทยาลัยเทคนิคสัตหีบ",
+            "degree": "ประกาศนียบัตรวิชาชีพ เทคนิคคอมพิวเตอร์",
+            "time": "2556 - 2559",
+            "grade": "2.70",
+            "certificate": "true"
+        },
+        {
+            "school": "วิทยาลัยเทคโนโลยีอักษรพัทยา",
+            "degree": "ประกาศนียบัตรวิชาชีพชั้นสูง สาขาวิชาคอมพิวเตอร์ธุรกิจ",
+            "time": "2561 - 2563",
+            "grade": "3.37",
+            "certificate": "false"
+        }
+    ]
+}
