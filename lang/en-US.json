@@ -35,7 +35,8 @@
             "logo": "Logo",
             "years_experience": "# of Years Experience",
             "year": "Year",
-            "month": "Month"
+            "month": "Month",
+            "resume": "Resume"
         }
     },
     "about": {

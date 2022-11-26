@@ -87,9 +87,10 @@
 export default {
     name: 'Header',
     setup() {
-        const { locale, locales, setLocale } = useI18n();
+        const { t, locale, locales, setLocale } = useI18n();
 
         return {
+            t,
             locale,
             locales,
             setLocale

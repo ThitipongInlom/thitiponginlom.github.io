@@ -18,8 +18,5 @@
 <script>
 export default {
     name: 'Home',
-    mounted() {
-
-    },
 }
 </script>
