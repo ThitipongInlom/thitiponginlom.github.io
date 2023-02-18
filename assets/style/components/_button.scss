@@ -1,0 +1,15 @@
+.btn-outline-info {
+  color: $white !important;
+}
+
+.btn-outline-info.active {
+  .active {
+    color: $black-1 !important;
+  }
+}
+
+.btn-outline-info {
+  .active {
+    color: $black;
+  }
+}

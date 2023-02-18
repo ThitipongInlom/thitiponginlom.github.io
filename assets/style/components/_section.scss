@@ -1,0 +1,97 @@
+section {
+  padding: 60px 20px;
+  overflow: hidden;
+}
+
+.section-defult {
+  background: $white-1;
+}
+
+.section-bg {
+  background: $white-2;
+}
+
+.section-title {
+  padding-bottom: 10px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: $navy-blue;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: $primary;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+section .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: $black-3;
+}
+
+section .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid $primary;
+  position: relative;
+
+  h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: $black-3;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 16px;
+    background: $white-3;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    padding-left: 20px;
+
+    li {
+      padding-bottom: 10px;
+    }
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: $white;
+    border: 2px solid $blue;
+  }
+}

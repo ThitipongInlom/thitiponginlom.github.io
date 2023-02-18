@@ -1,0 +1,44 @@
+{
+  "skillsData": [
+    {
+      "name": "HTML",
+      "dateStart": "2019-01-01"
+    },
+    {
+      "name": "PHP",
+      "dateStart": "2019-05-01"
+    },
+    {
+      "name": "JavaScript",
+      "dateStart": "2019-08-01"
+    },
+    {
+      "name": "Css",
+      "dateStart": "2019-02-01"
+    },
+    {
+      "name": "Nodejs",
+      "dateStart": "2021-01-01"
+    },
+    {
+      "name": "Vuejs",
+      "dateStart": "2021-08-01"
+    },
+    {
+      "name": "Bootstrap",
+      "dateStart": "2019-02-01"
+    },
+    {
+      "name": "Laravel",
+      "dateStart": "2020-01-01"
+    },
+    {
+      "name": "Codeigniter",
+      "dateStart": "2019-09-01"
+    },
+    {
+      "name": "jQuery",
+      "dateStart": "2020-01-01"
+    }
+  ]
+}
