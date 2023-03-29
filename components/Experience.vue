@@ -39,6 +39,7 @@ import langEnglish from '@/lang/en-US.json';
 
 export default {
   name: 'Experience',
+  data: () => ({}),
   computed: {
     experienceCountInFile() {
       return langEnglish.experience.length;

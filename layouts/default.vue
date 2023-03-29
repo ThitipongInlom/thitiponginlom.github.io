@@ -3,7 +3,7 @@
     <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
       <Head>
         <Title>{{ title }}</Title>
-        <Link rel="icon" type="image/x-icon" :content="imageBuild.profile" />
+        <Link rel="icon" type="image/x-icon" :href="imageBuild.icon" />
         <Meta name="charset" content="utf-8" />
         <Meta name="robots" content="index, follow" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -52,6 +52,7 @@ export default {
   data: () => ({
     imageBuild: {
       profile: new URL('@/assets/image/general/thitiponginlom.jpg', import.meta.url).href,
+      icon: new URL('@/assets/image/general/favicon.ico', import.meta.url).href,
     },
   }),
   mounted() {},
