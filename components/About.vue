@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
           <img
-            src="~/assets/image/general/thitiponginlom.jpg"
+            src="/image/general/thitiponginlom.jpg"
             class="img-fluid rounded-5"
             alt="Image Profile Resume"
           />

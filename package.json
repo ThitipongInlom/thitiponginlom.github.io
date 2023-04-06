@@ -8,25 +8,25 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint --ext .js,.vue .",
     "lint:fix": "eslint --fix --ext .js,.vue .",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d .output/public"
   },
   "devDependencies": {
-    "eslint": "^8.36.0",
-    "eslint-config-prettier": "^8.7.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.9.0",
-    "nuxt": "3.2.3",
-    "prettier": "^2.8.4",
-    "sass": "^1.59.2",
-    "sass-loader": "^13.2.0"
+    "eslint-plugin-vue": "^9.10.0",
+    "gh-pages": "^5.0.0",
+    "nuxt": "3.3.3",
+    "prettier": "^2.8.7",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@fortawesome/fontawesome-free": "^6.4.0",
     "@nuxtjs/i18n": "^8.0.0-beta.7",
-    "@popperjs/core": "^2.11.6",
+    "@popperjs/core": "^2.11.7",
     "aos": "^2.3.4",
-    "bootstrap": "^5.3.0-alpha1",
-    "gh-pages": "^5.0.0",
+    "bootstrap": "^5.3.0-alpha3",
     "jquery": "^3.6.4",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",

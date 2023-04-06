@@ -63,7 +63,7 @@
                 @click="switcherLanguage('en')"
               >
                 <img
-                  src="~/assets/image/lang/english.png"
+                  src="/image/lang/english.png"
                   width="20"
                   alt="English language"
                   class="img-fluid rounded"
@@ -82,7 +82,7 @@
                 @click="switcherLanguage('th')"
               >
                 <img
-                  src="~/assets/image/lang/thai.png"
+                  src="/image/lang/thai.png"
                   width="20"
                   alt="Thailand language"
                   class="img-fluid rounded"

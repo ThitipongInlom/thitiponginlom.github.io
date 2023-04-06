@@ -45,11 +45,7 @@ import LangEnglish from '@/lang/en-US.json';
 export default {
   name: 'Education',
   components: {},
-  data: () => ({
-    imageCertificate: [
-      new URL(`@/assets/image/general/Professional_qualifications.jpg`, import.meta.url).href,
-    ],
-  }),
+  data: () => ({}),
   computed: {
     educationCountInFile() {
       return LangEnglish.education.length;
@@ -91,8 +87,7 @@ export default {
           cancelButton: 'btn btn-danger',
           buttonsStyling: false,
         },
-        imageUrl: new URL(`@/assets/image/general/Professional_qualifications.jpg`, import.meta.url)
-          .href,
+        imageUrl: '/image/general/Professional_qualifications.jpg',
       });
     },
   },

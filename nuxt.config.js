@@ -27,5 +27,10 @@ export default defineNuxtConfig({
         file: 'th-TH.json',
       },
     ],
+    vueI18n: {
+      legacy: false,
+      fallbackLocale: 'en',
+      // seo: false,
+    },
   },
 });

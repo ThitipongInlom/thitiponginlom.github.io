@@ -51,8 +51,8 @@ export default {
   },
   data: () => ({
     imageBuild: {
-      profile: new URL('@/assets/image/general/thitiponginlom.jpg', import.meta.url).href,
-      icon: new URL('@/assets/image/general/favicon.ico', import.meta.url).href,
+      profile: new URL('@/public/image/general/thitiponginlom.jpg', import.meta.url).href,
+      icon: './image/general/favicon.ico',
     },
   }),
   mounted() {},
