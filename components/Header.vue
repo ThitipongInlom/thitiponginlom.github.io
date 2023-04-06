@@ -13,7 +13,7 @@
     <div class="d-flex flex-column">
       <div class="profile">
         <img
-          src="~/assets/image/general/thitiponginlom.jpg"
+          src="/image/general/thitiponginlom.jpg"
           alt="Image Profile Resume"
           class="img-fluid rounded-circle profile"
         />
