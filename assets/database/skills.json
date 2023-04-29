@@ -39,6 +39,10 @@
     {
       "name": "jQuery",
       "dateStart": "2020-01-01"
+    },
+    {
+      "name": "Nuxt",
+      "dateStart": "2023-01-20"
     }
   ]
 }

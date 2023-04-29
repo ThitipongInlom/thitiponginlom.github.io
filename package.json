@@ -11,14 +11,14 @@
     "deploy": "gh-pages -d .output/public"
   },
   "devDependencies": {
-    "eslint": "^8.37.0",
+    "eslint": "^8.39.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.10.0",
+    "eslint-plugin-vue": "^9.11.0",
     "gh-pages": "^5.0.0",
-    "nuxt": "3.3.3",
-    "prettier": "^2.8.7",
-    "sass": "^1.60.0",
+    "nuxt": "3.4.3",
+    "prettier": "^2.8.8",
+    "sass": "^1.60.1",
     "sass-loader": "^13.2.2"
   },
   "dependencies": {

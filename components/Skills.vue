@@ -13,7 +13,9 @@
           data-aos-delay="100"
         >
           <div class="card border-dark text-center">
-            <div class="card-header text-bg-dark">{{ skills.name }}</div>
+            <div class="card-header text-bg-dark">
+              {{ skills.name }}
+            </div>
             <div class="card-body">
               <div class="d-flex card-skills">
                 <img

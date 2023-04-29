@@ -131,12 +131,10 @@
 export default {
   name: 'Header',
   setup() {
-    const { t, locale, locales, setLocale } = useI18n();
+    const { locale, setLocale } = useI18n();
 
     return {
-      t,
       locale,
-      locales,
       setLocale,
     };
   },
