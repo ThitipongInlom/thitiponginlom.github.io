@@ -1,19 +1,20 @@
 <template>
   <!-- Header -->
-  <Header></Header>
+  <Header />
   <!-- Main -->
   <main id="main">
     <!-- About -->
-    <About></About>
+    <About />
     <!-- Experience -->
-    <Experience></Experience>
+    <Experience />
     <!-- Education -->
-    <Education></Education>
+    <Education />
     <!-- Skills -->
-    <Skills></Skills>
+    <Skills />
   </main>
   <!-- Footer -->
-  <Footer></Footer>
+  <Footer />
+  <ModalShowImage ref="ModalShowImag" />
 </template>
 <script>
 export default {

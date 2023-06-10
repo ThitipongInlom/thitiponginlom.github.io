@@ -44,8 +44,9 @@ import LangEnglish from '@/lang/en-US.json';
 
 export default {
   name: 'Education',
-  components: {},
-  data: () => ({}),
+  data: () => ({
+    images: ['/image/general/Professional_qualifications.jpg'],
+  }),
   computed: {
     educationCountInFile() {
       return LangEnglish.education.length;
@@ -78,17 +79,7 @@ export default {
       return String(item - count).replace('-', '');
     },
     getShowCertificate() {
-      Swal.fire({
-        confirmButtonText: this.$t('general.general.close'),
-        confirmButtonColor: '#d33',
-        cancelButtonColor: '#d33',
-        customClass: {
-          confirmButton: 'btn btn-danger',
-          cancelButton: 'btn btn-danger',
-          buttonsStyling: false,
-        },
-        imageUrl: '/image/general/Professional_qualifications.jpg',
-      });
+      this.$parent.$refs.ModalShowImag.setupImageData(this.images, 0);
     },
   },
 };

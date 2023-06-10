@@ -13,6 +13,8 @@ export default defineNuxtConfig({
   ],
   modules: ['@nuxtjs/i18n'],
   i18n: {
+    legacy: false,
+    fallbackLocale: 'en',
     defaultLocale: 'en',
     strategy: 'no_prefix',
     langDir: 'lang',
@@ -27,10 +29,5 @@ export default defineNuxtConfig({
         file: 'th-TH.json',
       },
     ],
-    vueI18n: {
-      legacy: false,
-      fallbackLocale: 'en',
-      // seo: false,
-    },
   },
 });
