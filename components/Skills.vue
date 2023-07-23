@@ -6,7 +6,7 @@
       </div>
       <div class="row">
         <div
-          class="col-6 col-md-2 mb-4"
+          class="col-6 col-md-4 col-lg-3 mb-4"
           v-for="(skills, index) in skillsList"
           :key="index"
           data-aos="fade-up"
