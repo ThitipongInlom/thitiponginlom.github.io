@@ -43,6 +43,14 @@
     {
       "name": "Nuxt",
       "dateStart": "2023-01-20"
+    },
+    {
+      "name": "TypeScript",
+      "dateStart": "2023-11-01"
+    },
+    {
+      "name": "Go",
+      "dateStart": "2024-01-27"
     }
   ]
 }
