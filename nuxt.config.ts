@@ -11,13 +11,21 @@ export default defineNuxtConfig({
     '@fortawesome/fontawesome-free/css/all.css',
     'aos/dist/aos.css',
   ],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          silenceDeprecations: ['import'],
+        },
+      },
+    },
+  },
   modules: ['@nuxtjs/i18n'],
   i18n: {
-    legacy: false,
-    fallbackLocale: 'en',
     defaultLocale: 'en',
+    fallbackLocale: 'en',
     strategy: 'no_prefix',
-    langDir: 'lang',
+    langDir: '../app/lang',
     lazy: true,
     locales: [
       {

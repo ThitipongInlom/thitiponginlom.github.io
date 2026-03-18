@@ -1,0 +1,33 @@
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 20px;
+  bottom: 20px;
+  z-index: 996;
+  background: $primary;
+  color: $white;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 14px rgba(108, 99, 255, 0.3);
+
+  i {
+    font-size: 20px;
+    color: $white;
+    line-height: 0;
+  }
+
+  &:hover {
+    background: $primary-dark;
+    color: $white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(108, 99, 255, 0.4);
+  }
+
+  &.active {
+    visibility: visible;
+    opacity: 1;
+  }
+}

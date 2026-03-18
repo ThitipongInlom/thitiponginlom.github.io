@@ -15,14 +15,14 @@
         <img
           src="/image/general/thitiponginlom.jpg"
           alt="Image Profile Resume"
-          class="img-fluid rounded-circle profile"
+          class="img-fluid rounded-circle profile-img"
         />
         <h1 class="text-light">
           <NuxtLink to="/">
             {{ $t('general.profile.name') }}
           </NuxtLink>
         </h1>
-        <div class="social-links mt-4 text-center">
+        <div class="social-links mt-3 text-center">
           <NuxtLink :href="$t('general.profile.socialUrl.twitter')" class="twitter" target="_bank">
             <i class="fa-brands fa-twitter" />
           </NuxtLink>

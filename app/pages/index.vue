@@ -8,7 +8,7 @@
     <!-- Experience -->
     <Experience />
     <!-- Education -->
-    <Education />
+    <Education @show-certificate="onShowCertificate" />
     <!-- Skills -->
     <Skills />
   </main>
@@ -19,5 +19,10 @@
 <script>
 export default {
   name: 'Home',
+  methods: {
+    onShowCertificate(images, index) {
+      this.$refs.ModalShowImag.setupImageData(images, index);
+    },
+  },
 };
 </script>

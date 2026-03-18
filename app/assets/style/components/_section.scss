@@ -1,0 +1,490 @@
+section {
+  padding: 80px 20px;
+  overflow: hidden;
+}
+
+.section-defult {
+  background: $white-1;
+}
+
+.section-bg {
+  background: $white-2;
+}
+
+.section-title {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  position: relative;
+  color: $navy-blue;
+  letter-spacing: -0.02em;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: $primary;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  color: $text-secondary;
+  font-size: 15px;
+  line-height: 1.8;
+  max-width: 700px;
+}
+
+// -- Experience Timeline --
+#experience {
+  .exp-timeline {
+    position: relative;
+    padding-left: 28px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: $border-color;
+    }
+  }
+
+  .exp-card {
+    position: relative;
+    margin-bottom: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .exp-dot {
+    position: absolute;
+    left: -28px;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: $primary;
+    border: 3px solid $white;
+    box-shadow: 0 0 0 2px $primary;
+    z-index: 1;
+  }
+
+  .exp-content {
+    background: $white;
+    border: 1px solid $border-color;
+    border-radius: 12px;
+    padding: 20px 24px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: rgba(108, 99, 255, 0.2);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+
+  .exp-position {
+    font-size: 16px;
+    font-weight: 600;
+    color: $text-primary;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .exp-time {
+    font-size: 12px;
+    font-weight: 600;
+    color: $primary-dark;
+    background: rgba(108, 99, 255, 0.08);
+    padding: 4px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    i {
+      font-size: 11px;
+    }
+  }
+
+  .exp-company {
+    font-size: 14px;
+    font-weight: 500;
+    color: $text-secondary;
+    margin-bottom: 12px;
+
+    i {
+      color: $gray-1;
+      font-size: 13px;
+    }
+  }
+
+  .exp-location {
+    font-size: 13px;
+    font-weight: 400;
+    color: $text-muted;
+
+    i {
+      color: $text-muted;
+      font-size: 12px;
+    }
+  }
+
+  .exp-description {
+    font-size: 14px;
+    line-height: 1.7;
+    color: $text-secondary;
+    margin: 0;
+  }
+
+  @media (max-width: 576px) {
+    .exp-header {
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .exp-content {
+      padding: 16px;
+    }
+  }
+}
+
+// -- Education Timeline --
+#education {
+  .edu-timeline {
+    position: relative;
+    padding-left: 28px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: $border-color;
+    }
+  }
+
+  .edu-card {
+    position: relative;
+    margin-bottom: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .edu-dot {
+    position: absolute;
+    left: -28px;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: $primary;
+    border: 3px solid $white-2;
+    box-shadow: 0 0 0 2px $primary;
+    z-index: 1;
+  }
+
+  .edu-content {
+    background: $white;
+    border: 1px solid $border-color;
+    border-radius: 12px;
+    padding: 20px 24px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: rgba(108, 99, 255, 0.2);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+
+  .edu-school {
+    font-size: 16px;
+    font-weight: 600;
+    color: $text-primary;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.4;
+
+    i {
+      color: $primary;
+      font-size: 14px;
+    }
+  }
+
+  .edu-time {
+    font-size: 12px;
+    font-weight: 600;
+    color: $primary-dark;
+    background: rgba(108, 99, 255, 0.08);
+    padding: 4px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    flex-shrink: 0;
+
+    i {
+      font-size: 11px;
+    }
+  }
+
+  .edu-degree {
+    font-size: 14px;
+    color: $text-secondary;
+    margin: 0 0 12px 0;
+    line-height: 1.6;
+
+    i {
+      color: $gray-1;
+      font-size: 13px;
+    }
+  }
+
+  .edu-footer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .edu-grade {
+    font-size: 13px;
+    font-weight: 600;
+    color: $text-secondary;
+    background: $white-1;
+    padding: 4px 12px;
+    border-radius: 6px;
+    border: 1px solid $border-color;
+
+    i {
+      color: #f59e0b;
+      font-size: 12px;
+    }
+  }
+
+  .edu-cert {
+    font-size: 13px;
+    font-weight: 500;
+    color: $primary;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $primary-light;
+    }
+
+    i {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .edu-header {
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .edu-content {
+      padding: 16px;
+    }
+  }
+}
+
+// -- About Section --
+#about.about {
+  .about-wrapper {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 40px;
+    align-items: start;
+  }
+
+  .about-photo {
+    img {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    }
+  }
+
+  .about-position {
+    font-size: 22px;
+    font-weight: 700;
+    color: $navy-blue;
+    margin: 0 0 12px 0;
+  }
+
+  .about-intro {
+    font-size: 15px;
+    color: $text-secondary;
+    line-height: 1.8;
+    margin: 0 0 20px 0;
+  }
+
+  .about-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .about-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: $white;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+    padding: 12px 16px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      border-color: rgba(108, 99, 255, 0.2);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    > i {
+      color: $primary;
+      font-size: 16px;
+      width: 20px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    > div {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+  }
+
+  .about-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: $text-muted;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .about-value {
+    font-size: 14px;
+    font-weight: 500;
+    color: $text-primary;
+  }
+
+  .about-bio {
+    font-size: 14px;
+    color: $text-secondary;
+    line-height: 1.8;
+    margin: 0;
+  }
+
+  @media (max-width: 991px) {
+    .about-wrapper {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .about-photo {
+      max-width: 280px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .about-details {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+// -- Skills --
+#skills.skills {
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .skill-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: $white;
+    border: 1px solid $border-color;
+    border-radius: 12px;
+    padding: 10px 16px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      border-color: rgba(108, 99, 255, 0.3);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      transform: translateY(-2px);
+    }
+  }
+
+  .skill-chip-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+    }
+  }
+
+  .skill-chip-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+  }
+
+  .skill-chip-name {
+    font-weight: 600;
+    font-size: 14px;
+    color: $text-primary;
+  }
+
+  .skill-chip-exp {
+    font-size: 11px;
+    color: $text-muted;
+  }
+}

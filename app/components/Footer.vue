@@ -4,7 +4,7 @@
     href="javascript:void(0)"
     class="back-to-top d-flex align-items-center justify-content-center"
     :class="{ active: activeClassOnScroll }"
-    @:click="backToTop"
+    @click="backToTop"
   >
     <i class="fa-solid fa-arrow-up" />
   </NuxtLink>
@@ -26,7 +26,7 @@ export default {
   mounted() {
     window.addEventListener('scroll', this.onScroll);
   },
-  beforeDestroy() {
+  beforeUnmount() {
     window.removeEventListener('scroll', this.onScroll);
   },
   methods: {

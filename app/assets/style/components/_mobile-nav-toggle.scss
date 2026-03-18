@@ -5,19 +5,24 @@
   top: 15px;
   z-index: 9998;
   border: 0;
-  font-size: 24px;
-  transition: all 0.4s;
+  font-size: 20px;
+  transition: all 0.4s ease;
   outline: none !important;
   background-color: $primary;
   color: $white;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   line-height: 0;
-  border-radius: 50px;
+  border-radius: 12px;
   cursor: pointer;
+  box-shadow: 0 4px 14px rgba(108, 99, 255, 0.3);
+
+  &:hover {
+    background-color: $primary-dark;
+  }
 }
 
 .mobile-nav-active {

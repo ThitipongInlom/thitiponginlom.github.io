@@ -1,0 +1,69 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: $text-primary;
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+
+::selection {
+  background: rgba(108, 99, 255, 0.15);
+  color: $text-primary;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-primay {
+  color: $primary;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: $primary-light;
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid $primary;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+#main {
+  margin-left: 300px;
+}
+
+@media (max-width: 1199px) {
+  #header {
+    left: -300px !important;
+  }
+
+  #main {
+    margin-left: 0;
+  }
+}
