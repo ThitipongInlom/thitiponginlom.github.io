@@ -2,7 +2,10 @@
   <section id="about" class="about section-defult">
     <div class="container">
       <div class="section-title">
-        <h2><i class="fa-solid fa-user me-3" />{{ $t('general.mainMenu.about') }}</h2>
+        <h2>
+          <i class="fa-solid fa-user me-3" />
+          {{ $t('general.mainMenu.about') }}
+        </h2>
       </div>
       <div class="about-wrapper">
         <div class="about-photo" data-aos="fade-right">
@@ -34,7 +37,7 @@
               <i class="fa-solid fa-cake-candles" />
               <div>
                 <span class="about-label">{{ $t('about.age') }}</span>
-                <span class="about-value">{{ $t('general.profile.age') }}</span>
+                <span class="about-value">{{ age }}</span>
               </div>
             </div>
             <div class="about-detail-item">
@@ -52,7 +55,22 @@
   </section>
 </template>
 <script>
-export default {
-  name: 'About',
-};
+  import dayjs from 'dayjs'
+  import customParseFormat from 'dayjs/plugin/customParseFormat'
+
+  dayjs.extend(customParseFormat)
+
+  export default {
+    name: 'About',
+    setup() {
+      const { t } = useI18n()
+      return { t }
+    },
+    computed: {
+      age() {
+        const birthDate = dayjs(this.t('general.profile.birthDate'), 'YYYY-MM-DD')
+        return dayjs().diff(birthDate, 'year')
+      },
+    },
+  }
 </script>

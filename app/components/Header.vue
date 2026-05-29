@@ -157,12 +157,14 @@ export default {
   },
   mounted() {},
   methods: {
-    submitMobileNavToggle(event) {
+    submitMobileNavToggle() {
       this.isMobileToggle = !this.isMobileToggle;
       document.body.classList.toggle('mobile-nav-active');
     },
     switcherLanguage(langCode) {
-      this.isMobileToggle == true ? this.submitMobileNavToggle() : null;
+      if (this.isMobileToggle == true) {
+        this.submitMobileNavToggle();
+      }
       this.setLocale(langCode);
     },
     submitScrollTo() {
